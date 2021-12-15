@@ -1,0 +1,685 @@
+NODE0
+
+
+
+
+2021-12-15T19:55:37.042315Z [init] Bitcoin Core version v0.21.1 (release build)
+2021-12-15T19:55:37.042325Z [init] InitParameterInteraction: parameter interaction: -bind set -> setting -listen=1
+2021-12-15T19:55:37.042503Z [init] Validating signatures for all blocks.
+2021-12-15T19:55:37.042509Z [init] Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2021-12-15T19:55:37.042606Z [init] Using the 'sse4(1way),sse41(4way),avx2(8way)' SHA256 implementation
+2021-12-15T19:55:37.042612Z [init] Using RdSeed as additional entropy source
+2021-12-15T19:55:37.042615Z [init] Using RdRand as an additional entropy source
+2021-12-15T19:55:37.051625Z [init] Default data directory /Users/peteregyed/Library/Application Support/Bitcoin
+2021-12-15T19:55:37.051642Z [init] Using data directory /var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/regtest
+2021-12-15T19:55:37.051670Z [init] Config file: /var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/bitcoin.conf
+2021-12-15T19:55:37.051694Z [init] Config file arg: regtest="1"
+2021-12-15T19:55:37.051711Z [init] Config file arg: [regtest] bind="127.0.0.1"
+2021-12-15T19:55:37.051723Z [init] Config file arg: [regtest] discover="0"
+2021-12-15T19:55:37.051734Z [init] Config file arg: [regtest] dnsseed="0"
+2021-12-15T19:55:37.051747Z [init] Config file arg: [regtest] fallbackfee="0.0002"
+2021-12-15T19:55:37.051761Z [init] Config file arg: [regtest] keypool="1"
+2021-12-15T19:55:37.051774Z [init] Config file arg: [regtest] listenonion="0"
+2021-12-15T19:55:37.051786Z [init] Config file arg: [regtest] port="15504"
+2021-12-15T19:55:37.051799Z [init] Config file arg: [regtest] printtoconsole="0"
+2021-12-15T19:55:37.051836Z [init] Config file arg: [regtest] rpcport="20504"
+2021-12-15T19:55:37.051854Z [init] Config file arg: [regtest] server="1"
+2021-12-15T19:55:37.051870Z [init] Config file arg: [regtest] shrinkdebugfile="0"
+2021-12-15T19:55:37.051883Z [init] Config file arg: [regtest] upnp="0"
+2021-12-15T19:55:37.051896Z [init] Command-line arg: datadir="/var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0"
+2021-12-15T19:55:37.051908Z [init] Command-line arg: debug=""
+2021-12-15T19:55:37.051924Z [init] Command-line arg: debugexclude="libevent"
+2021-12-15T19:55:37.051935Z [init] Command-line arg: debugexclude="leveldb"
+2021-12-15T19:55:37.051947Z [init] Command-line arg: logthreadnames=""
+2021-12-15T19:55:37.051958Z [init] Command-line arg: logtimemicros=""
+2021-12-15T19:55:37.051969Z [init] Command-line arg: uacomment="testnode0"
+2021-12-15T19:55:37.051985Z [init] Using at most 125 automatic connections (10240 file descriptors available)
+2021-12-15T19:55:37.060685Z [init] Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2021-12-15T19:55:37.070515Z [init] Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2021-12-15T19:55:37.070562Z [init] Script verification uses 15 additional threads
+2021-12-15T19:55:37.070939Z [scheduler] scheduler thread start
+2021-12-15T19:55:37.080667Z [init] Allowing HTTP connections from: 127.0.0.0/8 ::1/128 
+2021-12-15T19:55:37.080836Z [init] Binding RPC on address ::1 port 20504
+2021-12-15T19:55:37.081518Z [init] Binding RPC on address 127.0.0.1 port 20504
+2021-12-15T19:55:37.081598Z [init] Initialized HTTP server
+2021-12-15T19:55:37.081617Z [init] HTTP: creating work queue of depth 16
+2021-12-15T19:55:37.081628Z [init] Starting RPC
+2021-12-15T19:55:37.081655Z [init] Starting HTTP RPC server
+2021-12-15T19:55:37.081669Z [init] Using random cookie authentication.
+2021-12-15T19:55:37.081979Z [init] Generated RPC authentication cookie /var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/regtest/.cookie
+2021-12-15T19:55:37.081998Z [init] Registering HTTP handler for / (exactmatch 1)
+2021-12-15T19:55:37.082016Z [init] Registering HTTP handler for /wallet/ (exactmatch 0)
+2021-12-15T19:55:37.082032Z [init] Starting HTTP server
+2021-12-15T19:55:37.082049Z [init] HTTP: starting 4 worker threads
+2021-12-15T19:55:37.082127Z [http] Entering http event loop
+2021-12-15T19:55:37.082172Z [init] Using wallet directory /var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/regtest/wallets
+2021-12-15T19:55:37.082198Z [init] init message: Verifying wallet(s)...
+2021-12-15T19:55:37.082578Z [init] init message: Loading banlist...
+2021-12-15T19:55:37.082618Z [init] ERROR: DeserializeFileDB: Failed to open file /var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/regtest/banlist.dat
+2021-12-15T19:55:37.082633Z [init] Invalid or missing banlist.dat; recreating
+2021-12-15T19:55:37.124365Z [init] Flushed 0 banned node ips/subnets to banlist.dat  42ms
+2021-12-15T19:55:37.124561Z [init] net: setting try another outbound peer=false
+2021-12-15T19:55:37.143873Z [init] SetNetworkActive: true
+2021-12-15T19:55:37.144975Z [init] Using /16 prefix for IP bucketing
+2021-12-15T19:55:37.145001Z [init] Cache configuration:
+2021-12-15T19:55:37.145018Z [init] * Using 2.0 MiB for block index database
+2021-12-15T19:55:37.145031Z [init] * Using 8.0 MiB for chain state database
+2021-12-15T19:55:37.145049Z [init] * Using 440.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2021-12-15T19:55:37.145071Z [init] init message: Loading block index...
+2021-12-15T19:55:37.145095Z [init] Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+2021-12-15T19:55:37.145305Z [init] Opening LevelDB in /var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/regtest/blocks/index
+2021-12-15T19:55:37.208866Z [http] Received a POST request for / from 127.0.0.1:54378
+2021-12-15T19:55:37.222691Z [httpworker.0] ThreadRPCServer method=getblockcount user=__cookie__
+2021-12-15T19:55:37.294295Z [init] Opened LevelDB successfully
+2021-12-15T19:55:37.294355Z [init] Using obfuscation key for /var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/regtest/blocks/index: 0000000000000000
+2021-12-15T19:55:37.294395Z [init] LoadBlockIndexDB: last block file = 0
+2021-12-15T19:55:37.294419Z [init] LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2021-12-15T19:55:37.294439Z [init] Checking all blk files are present...
+2021-12-15T19:55:37.294460Z [init] Initializing databases...
+2021-12-15T19:55:37.313001Z [init] Pre-allocating up to position 0x1000000 in blk00000.dat
+2021-12-15T19:55:37.350765Z [init] Opening LevelDB in /var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/regtest/chainstate
+2021-12-15T19:55:37.501001Z [http] Received a POST request for / from 127.0.0.1:54379
+2021-12-15T19:55:37.520104Z [httpworker.1] ThreadRPCServer method=getblockcount user=__cookie__
+2021-12-15T19:55:37.540392Z [init] Opened LevelDB successfully
+2021-12-15T19:55:37.560143Z [init] Wrote new obfuscate key for /var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/regtest/chainstate: 17b5137054d45bdf
+2021-12-15T19:55:37.560169Z [init] Using obfuscation key for /var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/regtest/chainstate: 17b5137054d45bdf
+2021-12-15T19:55:37.560214Z [init] init message: Rewinding blocks...
+2021-12-15T19:55:37.560396Z [init]  block index             415ms
+2021-12-15T19:55:37.560554Z [loadblk] loadblk thread start
+2021-12-15T19:55:37.560699Z [loadblk]   - Load block from disk: 0.09ms [0.00s]
+2021-12-15T19:55:37.560743Z [loadblk] BlockChecked: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 state=Valid
+2021-12-15T19:55:37.560769Z [loadblk]   - Connect total: 0.07ms [0.00s (0.07ms/blk)]
+2021-12-15T19:55:37.560786Z [loadblk]   - Flush: 0.02ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:37.580046Z [loadblk]   - Writing chainstate: 19.24ms [0.02s (19.24ms/blk)]
+2021-12-15T19:55:37.580216Z [loadblk] UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1.000000 tx=1 date='2011-02-02T23:16:42Z' progress=1.000000 cache=0.0MiB(0txo)
+2021-12-15T19:55:37.580449Z [loadblk]   - Connect postprocess: 0.42ms [0.00s (0.42ms/blk)]
+2021-12-15T19:55:37.580466Z [loadblk] - Connect block: 19.84ms [0.02s (19.84ms/blk)]
+2021-12-15T19:55:37.580484Z [loadblk] Checking mempool with 0 transactions and 0 inputs
+2021-12-15T19:55:37.580510Z [loadblk] Enqueuing BlockConnected: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 block height=0
+2021-12-15T19:55:37.580534Z [loadblk] Enqueuing UpdatedBlockTip: new block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 fork block hash=null (in IBD=true)
+2021-12-15T19:55:37.580560Z [scheduler] BlockConnected: block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 block height=0
+2021-12-15T19:55:37.580611Z [loadblk] Failed to open mempool file from disk. Continuing anyway.
+2021-12-15T19:55:37.580632Z [loadblk] loadblk thread exit
+2021-12-15T19:55:37.580651Z [init] block tree size = 1
+2021-12-15T19:55:37.599951Z [init] nBestHeight = 0
+2021-12-15T19:55:37.600182Z [scheduler] UpdatedBlockTip: new block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 fork block hash=null (in IBD=true)
+2021-12-15T19:55:37.600264Z [init] Bound to 127.0.0.1:15504
+2021-12-15T19:55:37.600318Z [init] Bound to 127.0.0.1:18445
+2021-12-15T19:55:37.600339Z [init] init message: Loading P2P addresses...
+2021-12-15T19:55:37.600404Z [init] ERROR: DeserializeFileDB: Failed to open file /var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/regtest/peers.dat
+2021-12-15T19:55:37.600563Z [init] Invalid or missing peers.dat; recreating
+2021-12-15T19:55:37.638642Z [init] Flushed 0 addresses to peers.dat  38ms
+2021-12-15T19:55:37.638699Z [init] ERROR: DeserializeFileDB: Failed to open file /var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/regtest/anchors.dat
+2021-12-15T19:55:37.638730Z [init] 0 block-relay-only anchors will be tried for connections.
+2021-12-15T19:55:37.638748Z [init] init message: Starting network threads...
+2021-12-15T19:55:37.638791Z [init] DNS seeding disabled
+2021-12-15T19:55:37.638818Z [net] net thread start
+2021-12-15T19:55:37.638877Z [msghand] msghand thread start
+2021-12-15T19:55:37.638920Z [addcon] addcon thread start
+2021-12-15T19:55:37.638952Z [init] init message: Done loading
+2021-12-15T19:55:37.657916Z [opencon] opencon thread start
+2021-12-15T19:55:37.771640Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:37.771713Z [httpworker.2] ThreadRPCServer method=getblockcount user=__cookie__
+2021-12-15T19:55:37.772288Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:37.772375Z [httpworker.3] ThreadRPCServer method=getmempoolinfo user=__cookie__
+2021-12-15T19:55:37.775970Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:37.776023Z [httpworker.0] ThreadRPCServer method=createwallet user=__cookie__
+2021-12-15T19:55:37.776322Z [httpworker.0] Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2021-12-15T19:55:37.776343Z [httpworker.0] Using wallet /var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/regtest/wallets/wallet.dat
+2021-12-15T19:55:37.776539Z [httpworker.0] BerkeleyEnvironment::Open: LogDir=/var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/regtest/wallets/database ErrorFile=/var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/regtest/wallets/db.log
+2021-12-15T19:55:37.793487Z [httpworker.0] init message: Loading wallet...
+2021-12-15T19:55:37.894080Z [httpworker.0] [default wallet] Wallet File Version = 10500
+2021-12-15T19:55:37.894118Z [httpworker.0] [default wallet] Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total. Unknown wallet records: 0
+2021-12-15T19:55:38.227901Z [httpworker.0] [default wallet] keypool added 2 keys (1 internal), size=2 (1 internal)
+2021-12-15T19:55:38.284663Z [httpworker.0] [default wallet] LegacyScriptPubKeyMan::NewKeyPool rewrote keypool
+2021-12-15T19:55:38.337667Z [httpworker.0] [default wallet] Wallet completed loading in             544ms
+2021-12-15T19:55:38.337764Z [httpworker.0] [default wallet] setKeyPool.size() = 2
+2021-12-15T19:55:38.337793Z [httpworker.0] [default wallet] mapWallet.size() = 0
+2021-12-15T19:55:38.337935Z [httpworker.0] [default wallet] m_address_book.size() = 0
+2021-12-15T19:55:38.339308Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:38.339366Z [httpworker.1] ThreadRPCServer method=getwalletinfo user=__cookie__
+2021-12-15T19:55:38.340020Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:38.340080Z [httpworker.2] ThreadRPCServer method=importprivkey user=__cookie__
+2021-12-15T19:55:38.574545Z [httpworker.2] [default wallet] Already have script 00142b4569203694fc997e13f2c0a1383b9e16c77a0d, skipping
+2021-12-15T19:55:38.574668Z [httpworker.2] [default wallet] RescanFromTime: Rescanning last 1 blocks
+2021-12-15T19:55:38.574690Z [httpworker.2] [default wallet] Rescan started from block 0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206...
+2021-12-15T19:55:38.574850Z [httpworker.2] [default wallet] Rescan completed in               0ms
+2021-12-15T19:55:40.130376Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:40.130459Z [httpworker.3] ThreadRPCServer method=addnode user=__cookie__
+2021-12-15T19:55:40.130523Z [httpworker.3] trying connection 127.0.0.1:15505 lastseen=0.0hrs
+2021-12-15T19:55:40.131101Z [httpworker.3] Added connection peer=0
+2021-12-15T19:55:40.131192Z [httpworker.3] sending version (113 bytes) peer=0
+2021-12-15T19:55:40.131233Z [httpworker.3] send version message: version 70016, blocks=0, us=[::]:0, peer=0
+2021-12-15T19:55:40.131789Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:40.131855Z [httpworker.0] ThreadRPCServer method=getpeerinfo user=__cookie__
+2021-12-15T19:55:40.169550Z [scheduler] Flushing wallet.dat
+2021-12-15T19:55:40.176023Z [msghand] received: version (113 bytes) peer=0
+2021-12-15T19:55:40.186565Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:40.186685Z [msghand] sending wtxidrelay (0 bytes) peer=0
+2021-12-15T19:55:40.186792Z [httpworker.1] ThreadRPCServer method=getpeerinfo user=__cookie__
+2021-12-15T19:55:40.186834Z [msghand] sending sendaddrv2 (0 bytes) peer=0
+2021-12-15T19:55:40.186874Z [msghand] sending verack (0 bytes) peer=0
+2021-12-15T19:55:40.186911Z [msghand] sending getaddr (0 bytes) peer=0
+2021-12-15T19:55:40.186949Z [msghand] receive version message: /Satoshi:0.21.1(testnode1)/: version 70016, blocks=0, us=[::]:0, peer=0
+2021-12-15T19:55:40.186972Z [msghand] added time data, samples 2, offset +0 (+0 minutes)
+2021-12-15T19:55:40.204378Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:40.204510Z [msghand] received: wtxidrelay (0 bytes) peer=0
+2021-12-15T19:55:40.204609Z [msghand] received: sendaddrv2 (0 bytes) peer=0
+2021-12-15T19:55:40.204629Z [httpworker.2] ThreadRPCServer method=getpeerinfo user=__cookie__
+2021-12-15T19:55:40.204672Z [msghand] received: verack (0 bytes) peer=0
+2021-12-15T19:55:40.204712Z [msghand] New outbound peer connected: version: 70016, blocks=0, peer=0 (full-relay)
+2021-12-15T19:55:40.204726Z [msghand] sending sendheaders (0 bytes) peer=0
+2021-12-15T19:55:40.204758Z [msghand] sending sendcmpct (9 bytes) peer=0
+2021-12-15T19:55:40.204786Z [msghand] sending sendcmpct (9 bytes) peer=0
+2021-12-15T19:55:40.204836Z [msghand] sending ping (8 bytes) peer=0
+2021-12-15T19:55:40.222327Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:40.222452Z [msghand] initial getheaders (0) to peer=0 (startheight:0)
+2021-12-15T19:55:40.222497Z [httpworker.3] ThreadRPCServer method=getbestblockhash user=__cookie__
+2021-12-15T19:55:40.222541Z [msghand] sending getheaders (69 bytes) peer=0
+2021-12-15T19:55:40.222615Z [msghand] sending feefilter (8 bytes) peer=0
+2021-12-15T19:55:40.222722Z [msghand] received: sendheaders (0 bytes) peer=0
+2021-12-15T19:55:40.222748Z [msghand] received: sendcmpct (9 bytes) peer=0
+2021-12-15T19:55:40.222855Z [msghand] received: sendcmpct (9 bytes) peer=0
+2021-12-15T19:55:40.222875Z [msghand] received: ping (8 bytes) peer=0
+2021-12-15T19:55:40.240335Z [msghand] sending pong (8 bytes) peer=0
+2021-12-15T19:55:40.240517Z [scheduler] Flushed wallet.dat 71ms
+2021-12-15T19:55:40.240558Z [msghand] received: getheaders (69 bytes) peer=0
+2021-12-15T19:55:40.240584Z [msghand] Ignoring getheaders from peer=0 because node is in initial block download
+2021-12-15T19:55:40.240602Z [msghand] received: feefilter (8 bytes) peer=0
+2021-12-15T19:55:40.240624Z [msghand] received: feefilter of 0.09170997 BTC/kvB from peer=0
+2021-12-15T19:55:40.240639Z [msghand] received: pong (8 bytes) peer=0
+2021-12-15T19:55:40.241050Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:40.241126Z [httpworker.0] ThreadRPCServer method=getrawmempool user=__cookie__
+2021-12-15T19:55:40.242151Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:40.242203Z [httpworker.1] ThreadRPCServer method=syncwithvalidationinterfacequeue user=__cookie__
+2021-12-15T19:55:40.244210Z [net] Added connection peer=1
+2021-12-15T19:55:40.244258Z [net] connection from 127.0.0.1:54384 accepted
+2021-12-15T19:55:40.244513Z [msghand] received: version (111 bytes) peer=1
+2021-12-15T19:55:40.244531Z [msghand] sending version (113 bytes) peer=1
+2021-12-15T19:55:40.244562Z [msghand] send version message: version 70016, blocks=0, us=[::]:0, peer=1
+2021-12-15T19:55:40.244573Z [msghand] sending wtxidrelay (0 bytes) peer=1
+2021-12-15T19:55:40.244589Z [msghand] sending sendaddrv2 (0 bytes) peer=1
+2021-12-15T19:55:40.244605Z [msghand] sending verack (0 bytes) peer=1
+2021-12-15T19:55:40.244626Z [msghand] receive version message: /python-p2p-tester:0.0.3/: version 70016, blocks=-1, us=127.0.0.1:15504, peer=1
+2021-12-15T19:55:40.244946Z [msghand] received: wtxidrelay (0 bytes) peer=1
+2021-12-15T19:55:40.244978Z [msghand] received: verack (0 bytes) peer=1
+2021-12-15T19:55:40.244992Z [msghand] sending sendheaders (0 bytes) peer=1
+2021-12-15T19:55:40.245013Z [msghand] sending sendcmpct (9 bytes) peer=1
+2021-12-15T19:55:40.245033Z [msghand] sending sendcmpct (9 bytes) peer=1
+2021-12-15T19:55:40.245059Z [msghand] sending ping (8 bytes) peer=1
+2021-12-15T19:55:40.245085Z [msghand] sending feefilter (8 bytes) peer=1
+2021-12-15T19:55:40.245506Z [msghand] received: pong (8 bytes) peer=1
+2021-12-15T19:55:40.295195Z [msghand] received: ping (8 bytes) peer=1
+2021-12-15T19:55:40.295238Z [msghand] sending pong (8 bytes) peer=1
+2021-12-15T19:55:40.350473Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:40.350547Z [httpworker.2] ThreadRPCServer method=generatetoaddress user=__cookie__
+2021-12-15T19:55:40.350648Z [httpworker.2] CreateNewBlock(): block weight: 896 txs: 0 fees: 0 sigops 400
+2021-12-15T19:55:40.350689Z [httpworker.2]     - Sanity checks: 0.00ms [0.00s (0.00ms/blk)]
+2021-12-15T19:55:40.350716Z [httpworker.2]     - Fork checks: 0.03ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.350734Z [httpworker.2]       - Connect 1 transactions: 0.02ms (0.016ms/tx, 0.000ms/txin) [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.350749Z [httpworker.2]     - Verify 0 txins: 0.03ms (0.000ms/txin) [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.350765Z [httpworker.2] CreateNewBlock() packages: 0.01ms (0 packages, 0 updated descendants), validity: 0.14ms (total 0.15ms)
+2021-12-15T19:55:40.350983Z [httpworker.2]   - Load block from disk: 0.00ms [0.00s]
+2021-12-15T19:55:40.351003Z [httpworker.2]     - Sanity checks: 0.00ms [0.00s (0.00ms/blk)]
+2021-12-15T19:55:40.351019Z [httpworker.2]     - Fork checks: 0.02ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.351035Z [httpworker.2]       - Connect 1 transactions: 0.01ms (0.014ms/tx, 0.000ms/txin) [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.351049Z [httpworker.2]     - Verify 0 txins: 0.03ms (0.000ms/txin) [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.351183Z [httpworker.2] Pre-allocating up to position 0x100000 in rev00000.dat
+2021-12-15T19:55:40.351944Z [httpworker.2]     - Index writing: 0.89ms [0.00s (0.30ms/blk)]
+2021-12-15T19:55:40.351985Z [httpworker.2]     - Callbacks: 0.04ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.351999Z [httpworker.2] BlockChecked: block hash=0d5a52c9b3fccc61037ea99f4f6b8cccaaf8b3e63f71ce11b08680a85964e15b state=Valid
+2021-12-15T19:55:40.352013Z [httpworker.2]   - Connect total: 1.03ms [0.00s (0.37ms/blk)]
+2021-12-15T19:55:40.352024Z [httpworker.2]   - Flush: 0.01ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.352035Z [httpworker.2]   - Writing chainstate: 0.01ms [0.02s (6.42ms/blk)]
+2021-12-15T19:55:40.352103Z [httpworker.2] Blockpolicy estimates updated by 0 of 0 block txs, since last block 0 of 0 tracked, mempool map size 0, max target 0 from current
+2021-12-15T19:55:40.352115Z [httpworker.2] Leaving InitialBlockDownload (latching to false)
+2021-12-15T19:55:40.352134Z [httpworker.2] UpdateTip: new best=0d5a52c9b3fccc61037ea99f4f6b8cccaaf8b3e63f71ce11b08680a85964e15b height=1 version=0x20000000 log2_work=2.000000 tx=2 date='2021-12-15T19:55:40Z' progress=1.000000 cache=0.0MiB(1txo)
+2021-12-15T19:55:40.352145Z [httpworker.2]   - Connect postprocess: 0.11ms [0.00s (0.18ms/blk)]
+2021-12-15T19:55:40.352154Z [httpworker.2] - Connect block: 1.17ms [0.02s (7.00ms/blk)]
+2021-12-15T19:55:40.352167Z [httpworker.2] Checking mempool with 0 transactions and 0 inputs
+2021-12-15T19:55:40.352181Z [httpworker.2] Enqueuing BlockConnected: block hash=0d5a52c9b3fccc61037ea99f4f6b8cccaaf8b3e63f71ce11b08680a85964e15b block height=1
+2021-12-15T19:55:40.352199Z [httpworker.2] Enqueuing UpdatedBlockTip: new block hash=0d5a52c9b3fccc61037ea99f4f6b8cccaaf8b3e63f71ce11b08680a85964e15b fork block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 (in IBD=false)
+2021-12-15T19:55:40.352266Z [scheduler] BlockConnected: block hash=0d5a52c9b3fccc61037ea99f4f6b8cccaaf8b3e63f71ce11b08680a85964e15b block height=1
+2021-12-15T19:55:40.352673Z [scheduler] [default wallet] AddToWallet b31ca5d5ba91df771d2e4c17dc67ed4fb9e3165acb99730df3bf44bf22403928  new
+2021-12-15T19:55:40.352722Z [scheduler] UpdatedBlockTip: new block hash=0d5a52c9b3fccc61037ea99f4f6b8cccaaf8b3e63f71ce11b08680a85964e15b fork block hash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 (in IBD=false)
+2021-12-15T19:55:40.352741Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:40.352781Z [msghand] SendMessages: sending inv peer=0 hash=0d5a52c9b3fccc61037ea99f4f6b8cccaaf8b3e63f71ce11b08680a85964e15b
+2021-12-15T19:55:40.352818Z [httpworker.3] ThreadRPCServer method=getbestblockhash user=__cookie__
+2021-12-15T19:55:40.352853Z [msghand] sending inv (37 bytes) peer=0
+2021-12-15T19:55:40.352895Z [msghand] sending feefilter (8 bytes) peer=0
+2021-12-15T19:55:40.352931Z [msghand] initial getheaders (0) to peer=1 (startheight:-1)
+2021-12-15T19:55:40.352944Z [msghand] sending getheaders (69 bytes) peer=1
+2021-12-15T19:55:40.352968Z [msghand] SendMessages: sending inv peer=1 hash=0d5a52c9b3fccc61037ea99f4f6b8cccaaf8b3e63f71ce11b08680a85964e15b
+2021-12-15T19:55:40.352981Z [msghand] sending inv (37 bytes) peer=1
+2021-12-15T19:55:40.353002Z [msghand] sending feefilter (8 bytes) peer=1
+2021-12-15T19:55:40.353108Z [msghand] received: getheaders (69 bytes) peer=0
+2021-12-15T19:55:40.353153Z [msghand] getheaders 1 to 0d5a52c9b3fccc61037ea99f4f6b8cccaaf8b3e63f71ce11b08680a85964e15b from peer=0
+2021-12-15T19:55:40.353172Z [msghand] sending headers (82 bytes) peer=0
+2021-12-15T19:55:40.353420Z [msghand] received: getdata (37 bytes) peer=0
+2021-12-15T19:55:40.353437Z [msghand] received getdata (1 invsz) peer=0
+2021-12-15T19:55:40.353450Z [msghand] received getdata for: witness-block 0d5a52c9b3fccc61037ea99f4f6b8cccaaf8b3e63f71ce11b08680a85964e15b peer=0
+2021-12-15T19:55:40.353548Z [msghand] sending block (252 bytes) peer=0
+2021-12-15T19:55:40.355132Z [msghand] received: feefilter (8 bytes) peer=0
+2021-12-15T19:55:40.355170Z [msghand] received: feefilter of 0.00001000 BTC/kvB from peer=0
+2021-12-15T19:55:40.355470Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:40.355522Z [httpworker.0] ThreadRPCServer method=getrawmempool user=__cookie__
+2021-12-15T19:55:40.356465Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:40.356521Z [httpworker.1] ThreadRPCServer method=syncwithvalidationinterfacequeue user=__cookie__
+2021-12-15T19:55:40.357643Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:40.357692Z [httpworker.2] ThreadRPCServer method=getbestblockhash user=__cookie__
+2021-12-15T19:55:40.358067Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:40.358118Z [httpworker.3] ThreadRPCServer method=getbestblockhash user=__cookie__
+2021-12-15T19:55:40.358405Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:40.358453Z [httpworker.0] ThreadRPCServer method=getblock user=__cookie__
+2021-12-15T19:55:40.358983Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:40.359030Z [httpworker.1] ThreadRPCServer method=getblockcount user=__cookie__
+2021-12-15T19:55:40.361466Z [msghand] received: block (144 bytes) peer=1
+2021-12-15T19:55:40.361510Z [msghand] received block 6f0c54019cd4254289e5c81b5d16a082464677ed6e0579e41535deb8590168ef peer=1
+2021-12-15T19:55:40.361541Z [msghand] NewPoWValidBlock: block hash=6f0c54019cd4254289e5c81b5d16a082464677ed6e0579e41535deb8590168ef
+2021-12-15T19:55:40.361706Z [msghand]   - Load block from disk: 0.00ms [0.00s]
+2021-12-15T19:55:40.361725Z [msghand]     - Sanity checks: 0.00ms [0.00s (0.00ms/blk)]
+2021-12-15T19:55:40.361742Z [msghand]     - Fork checks: 0.02ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.361756Z [msghand]       - Connect 1 transactions: 0.01ms (0.012ms/tx, 0.000ms/txin) [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.361769Z [msghand]     - Verify 0 txins: 0.03ms (0.000ms/txin) [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.361863Z [msghand]     - Index writing: 0.09ms [0.00s (0.25ms/blk)]
+2021-12-15T19:55:40.361875Z [msghand]     - Callbacks: 0.01ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.361887Z [msghand] BlockChecked: block hash=6f0c54019cd4254289e5c81b5d16a082464677ed6e0579e41535deb8590168ef state=Valid
+2021-12-15T19:55:40.361900Z [msghand]   - Connect total: 0.20ms [0.00s (0.33ms/blk)]
+2021-12-15T19:55:40.361911Z [msghand]   - Flush: 0.01ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.361922Z [msghand]   - Writing chainstate: 0.01ms [0.02s (4.82ms/blk)]
+2021-12-15T19:55:40.361990Z [msghand] Blockpolicy estimates updated by 0 of 0 block txs, since last block 0 of 0 tracked, mempool map size 0, max target 0 from current
+2021-12-15T19:55:40.362011Z [msghand] UpdateTip: new best=6f0c54019cd4254289e5c81b5d16a082464677ed6e0579e41535deb8590168ef height=2 version=0x00000001 log2_work=2.584963 tx=3 date='2021-12-15T19:55:41Z' progress=1.000000 cache=0.0MiB(2txo)
+2021-12-15T19:55:40.362021Z [msghand]   - Connect postprocess: 0.10ms [0.00s (0.16ms/blk)]
+2021-12-15T19:55:40.362031Z [msghand] - Connect block: 0.32ms [0.02s (5.33ms/blk)]
+2021-12-15T19:55:40.362043Z [msghand] Checking mempool with 0 transactions and 0 inputs
+2021-12-15T19:55:40.362057Z [msghand] Enqueuing BlockConnected: block hash=6f0c54019cd4254289e5c81b5d16a082464677ed6e0579e41535deb8590168ef block height=2
+2021-12-15T19:55:40.362076Z [msghand] Enqueuing UpdatedBlockTip: new block hash=6f0c54019cd4254289e5c81b5d16a082464677ed6e0579e41535deb8590168ef fork block hash=0d5a52c9b3fccc61037ea99f4f6b8cccaaf8b3e63f71ce11b08680a85964e15b (in IBD=false)
+2021-12-15T19:55:40.362098Z [scheduler] BlockConnected: block hash=6f0c54019cd4254289e5c81b5d16a082464677ed6e0579e41535deb8590168ef block height=2
+2021-12-15T19:55:40.362130Z [msghand] received: block (144 bytes) peer=1
+2021-12-15T19:55:40.362152Z [scheduler] UpdatedBlockTip: new block hash=6f0c54019cd4254289e5c81b5d16a082464677ed6e0579e41535deb8590168ef fork block hash=0d5a52c9b3fccc61037ea99f4f6b8cccaaf8b3e63f71ce11b08680a85964e15b (in IBD=false)
+2021-12-15T19:55:40.362173Z [msghand] received block 095cae48b688c6a0a96ddf7f025b123d5564d7d1d6e61604980fc94833d3ed11 peer=1
+2021-12-15T19:55:40.362197Z [msghand] NewPoWValidBlock: block hash=095cae48b688c6a0a96ddf7f025b123d5564d7d1d6e61604980fc94833d3ed11
+2021-12-15T19:55:40.362356Z [msghand]   - Load block from disk: 0.00ms [0.00s]
+2021-12-15T19:55:40.362374Z [msghand]     - Sanity checks: 0.00ms [0.00s (0.00ms/blk)]
+2021-12-15T19:55:40.362387Z [msghand]     - Fork checks: 0.01ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.362400Z [msghand]       - Connect 1 transactions: 0.01ms (0.011ms/tx, 0.000ms/txin) [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.362416Z [msghand]     - Verify 0 txins: 0.03ms (0.000ms/txin) [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.362498Z [msghand]     - Index writing: 0.08ms [0.00s (0.21ms/blk)]
+2021-12-15T19:55:40.362511Z [msghand]     - Callbacks: 0.01ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.362522Z [msghand] BlockChecked: block hash=095cae48b688c6a0a96ddf7f025b123d5564d7d1d6e61604980fc94833d3ed11 state=Valid
+2021-12-15T19:55:40.362537Z [msghand]   - Connect total: 0.18ms [0.00s (0.30ms/blk)]
+2021-12-15T19:55:40.362550Z [msghand]   - Flush: 0.01ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.362562Z [msghand]   - Writing chainstate: 0.01ms [0.02s (3.85ms/blk)]
+2021-12-15T19:55:40.362638Z [msghand] Blockpolicy estimates updated by 0 of 0 block txs, since last block 0 of 0 tracked, mempool map size 0, max target 0 from current
+2021-12-15T19:55:40.362657Z [msghand] UpdateTip: new best=095cae48b688c6a0a96ddf7f025b123d5564d7d1d6e61604980fc94833d3ed11 height=3 version=0x00000001 log2_work=3.000000 tx=4 date='2021-12-15T19:55:42Z' progress=1.000000 cache=0.0MiB(3txo)
+2021-12-15T19:55:40.362673Z [msghand]   - Connect postprocess: 0.11ms [0.00s (0.15ms/blk)]
+2021-12-15T19:55:40.362682Z [msghand] - Connect block: 0.32ms [0.02s (4.33ms/blk)]
+2021-12-15T19:55:40.362696Z [msghand] Checking mempool with 0 transactions and 0 inputs
+2021-12-15T19:55:40.362710Z [msghand] Enqueuing BlockConnected: block hash=095cae48b688c6a0a96ddf7f025b123d5564d7d1d6e61604980fc94833d3ed11 block height=3
+2021-12-15T19:55:40.362729Z [msghand] Enqueuing UpdatedBlockTip: new block hash=095cae48b688c6a0a96ddf7f025b123d5564d7d1d6e61604980fc94833d3ed11 fork block hash=6f0c54019cd4254289e5c81b5d16a082464677ed6e0579e41535deb8590168ef (in IBD=false)
+2021-12-15T19:55:40.362747Z [scheduler] BlockConnected: block hash=095cae48b688c6a0a96ddf7f025b123d5564d7d1d6e61604980fc94833d3ed11 block height=3
+2021-12-15T19:55:40.362771Z [msghand] SendMessages: sending inv peer=1 hash=6f0c54019cd4254289e5c81b5d16a082464677ed6e0579e41535deb8590168ef
+2021-12-15T19:55:40.362787Z [msghand] sending inv (37 bytes) peer=1
+2021-12-15T19:55:40.362828Z [msghand] SendMessages: sending header 6f0c54019cd4254289e5c81b5d16a082464677ed6e0579e41535deb8590168ef to peer=0
+2021-12-15T19:55:40.362840Z [msghand] sending headers (82 bytes) peer=0
+2021-12-15T19:55:40.362867Z [msghand] received: block (144 bytes) peer=1
+2021-12-15T19:55:40.362884Z [msghand] received block 6a580741de5ce979272532f110f6491017a3a1eff6eb59ced2e0b287e13aa73a peer=1
+2021-12-15T19:55:40.362902Z [scheduler] UpdatedBlockTip: new block hash=095cae48b688c6a0a96ddf7f025b123d5564d7d1d6e61604980fc94833d3ed11 fork block hash=6f0c54019cd4254289e5c81b5d16a082464677ed6e0579e41535deb8590168ef (in IBD=false)
+2021-12-15T19:55:40.362947Z [msghand] NewPoWValidBlock: block hash=6a580741de5ce979272532f110f6491017a3a1eff6eb59ced2e0b287e13aa73a
+2021-12-15T19:55:40.363070Z [msghand]   - Load block from disk: 0.00ms [0.00s]
+2021-12-15T19:55:40.363086Z [msghand]     - Sanity checks: 0.00ms [0.00s (0.00ms/blk)]
+2021-12-15T19:55:40.363102Z [msghand]     - Fork checks: 0.02ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.363115Z [msghand]       - Connect 1 transactions: 0.01ms (0.011ms/tx, 0.000ms/txin) [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.363126Z [msghand]     - Verify 0 txins: 0.02ms (0.000ms/txin) [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.363203Z [msghand]     - Index writing: 0.07ms [0.00s (0.19ms/blk)]
+2021-12-15T19:55:40.363214Z [msghand]     - Callbacks: 0.01ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.363226Z [msghand] BlockChecked: block hash=6a580741de5ce979272532f110f6491017a3a1eff6eb59ced2e0b287e13aa73a state=Valid
+2021-12-15T19:55:40.363238Z [msghand]   - Connect total: 0.17ms [0.00s (0.28ms/blk)]
+2021-12-15T19:55:40.363275Z [msghand]   - Flush: 0.04ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.363287Z [msghand]   - Writing chainstate: 0.01ms [0.02s (3.21ms/blk)]
+2021-12-15T19:55:40.363345Z [msghand] Blockpolicy estimates updated by 0 of 0 block txs, since last block 0 of 0 tracked, mempool map size 0, max target 0 from current
+2021-12-15T19:55:40.363369Z [msghand] UpdateTip: new best=6a580741de5ce979272532f110f6491017a3a1eff6eb59ced2e0b287e13aa73a height=4 version=0x00000001 log2_work=3.321928 tx=5 date='2021-12-15T19:55:43Z' progress=1.000000 cache=0.0MiB(4txo)
+2021-12-15T19:55:40.363386Z [msghand]   - Connect postprocess: 0.10ms [0.00s (0.14ms/blk)]
+2021-12-15T19:55:40.363401Z [msghand] - Connect block: 0.32ms [0.02s (3.66ms/blk)]
+2021-12-15T19:55:40.363414Z [msghand] Checking mempool with 0 transactions and 0 inputs
+2021-12-15T19:55:40.363427Z [msghand] Enqueuing BlockConnected: block hash=6a580741de5ce979272532f110f6491017a3a1eff6eb59ced2e0b287e13aa73a block height=4
+2021-12-15T19:55:40.363444Z [msghand] Enqueuing UpdatedBlockTip: new block hash=6a580741de5ce979272532f110f6491017a3a1eff6eb59ced2e0b287e13aa73a fork block hash=095cae48b688c6a0a96ddf7f025b123d5564d7d1d6e61604980fc94833d3ed11 (in IBD=false)
+2021-12-15T19:55:40.363469Z [msghand] SendMessages: sending inv peer=1 hash=095cae48b688c6a0a96ddf7f025b123d5564d7d1d6e61604980fc94833d3ed11
+2021-12-15T19:55:40.363485Z [scheduler] BlockConnected: block hash=6a580741de5ce979272532f110f6491017a3a1eff6eb59ced2e0b287e13aa73a block height=4
+2021-12-15T19:55:40.363515Z [msghand] sending inv (37 bytes) peer=1
+2021-12-15T19:55:40.363562Z [msghand] received: getdata (37 bytes) peer=0
+2021-12-15T19:55:40.363577Z [msghand] received getdata (1 invsz) peer=0
+2021-12-15T19:55:40.363593Z [scheduler] UpdatedBlockTip: new block hash=6a580741de5ce979272532f110f6491017a3a1eff6eb59ced2e0b287e13aa73a fork block hash=095cae48b688c6a0a96ddf7f025b123d5564d7d1d6e61604980fc94833d3ed11 (in IBD=false)
+2021-12-15T19:55:40.363627Z [msghand] received getdata for: cmpctblock 6f0c54019cd4254289e5c81b5d16a082464677ed6e0579e41535deb8590168ef peer=0
+2021-12-15T19:55:40.363722Z [msghand] sending cmpctblock (154 bytes) peer=0
+2021-12-15T19:55:40.363758Z [msghand] SendMessages: 2 headers, range (095cae48b688c6a0a96ddf7f025b123d5564d7d1d6e61604980fc94833d3ed11, 6a580741de5ce979272532f110f6491017a3a1eff6eb59ced2e0b287e13aa73a), to peer=0
+2021-12-15T19:55:40.363770Z [msghand] sending headers (163 bytes) peer=0
+2021-12-15T19:55:40.363800Z [msghand] received: block (144 bytes) peer=1
+2021-12-15T19:55:40.363818Z [msghand] received block 7ea0e51f5730137d00a12d0fe094bd975faaabc7de73a62ea851e13d57828d96 peer=1
+2021-12-15T19:55:40.363841Z [msghand] NewPoWValidBlock: block hash=7ea0e51f5730137d00a12d0fe094bd975faaabc7de73a62ea851e13d57828d96
+2021-12-15T19:55:40.363963Z [msghand]   - Load block from disk: 0.00ms [0.00s]
+2021-12-15T19:55:40.363982Z [msghand]     - Sanity checks: 0.00ms [0.00s (0.00ms/blk)]
+2021-12-15T19:55:40.363999Z [msghand]     - Fork checks: 0.02ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.364017Z [msghand]       - Connect 1 transactions: 0.02ms (0.016ms/tx, 0.000ms/txin) [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.364030Z [msghand]     - Verify 0 txins: 0.03ms (0.000ms/txin) [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.364124Z [msghand]     - Index writing: 0.09ms [0.00s (0.18ms/blk)]
+2021-12-15T19:55:40.364137Z [msghand]     - Callbacks: 0.02ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.364149Z [msghand] BlockChecked: block hash=7ea0e51f5730137d00a12d0fe094bd975faaabc7de73a62ea851e13d57828d96 state=Valid
+2021-12-15T19:55:40.364164Z [msghand]   - Connect total: 0.20ms [0.00s (0.27ms/blk)]
+2021-12-15T19:55:40.364181Z [msghand]   - Flush: 0.01ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.364195Z [msghand]   - Writing chainstate: 0.02ms [0.02s (2.76ms/blk)]
+2021-12-15T19:55:40.364271Z [msghand] Blockpolicy estimates updated by 0 of 0 block txs, since last block 0 of 0 tracked, mempool map size 0, max target 0 from current
+2021-12-15T19:55:40.364296Z [msghand] UpdateTip: new best=7ea0e51f5730137d00a12d0fe094bd975faaabc7de73a62ea851e13d57828d96 height=5 version=0x00000001 log2_work=3.584963 tx=6 date='2021-12-15T19:55:44Z' progress=1.000000 cache=0.0MiB(5txo)
+2021-12-15T19:55:40.364341Z [msghand]   - Connect postprocess: 0.14ms [0.00s (0.14ms/blk)]
+2021-12-15T19:55:40.364354Z [msghand] - Connect block: 0.38ms [0.02s (3.19ms/blk)]
+2021-12-15T19:55:40.364368Z [msghand] Checking mempool with 0 transactions and 0 inputs
+2021-12-15T19:55:40.364383Z [msghand] Enqueuing BlockConnected: block hash=7ea0e51f5730137d00a12d0fe094bd975faaabc7de73a62ea851e13d57828d96 block height=5
+2021-12-15T19:55:40.364405Z [msghand] Enqueuing UpdatedBlockTip: new block hash=7ea0e51f5730137d00a12d0fe094bd975faaabc7de73a62ea851e13d57828d96 fork block hash=6a580741de5ce979272532f110f6491017a3a1eff6eb59ced2e0b287e13aa73a (in IBD=false)
+2021-12-15T19:55:40.364430Z [scheduler] BlockConnected: block hash=7ea0e51f5730137d00a12d0fe094bd975faaabc7de73a62ea851e13d57828d96 block height=5
+2021-12-15T19:55:40.364462Z [msghand] SendMessages: sending inv peer=1 hash=6a580741de5ce979272532f110f6491017a3a1eff6eb59ced2e0b287e13aa73a
+2021-12-15T19:55:40.364478Z [msghand] sending inv (37 bytes) peer=1
+2021-12-15T19:55:40.364523Z [msghand] received: sendcmpct (9 bytes) peer=0
+2021-12-15T19:55:40.364543Z [scheduler] UpdatedBlockTip: new block hash=7ea0e51f5730137d00a12d0fe094bd975faaabc7de73a62ea851e13d57828d96 fork block hash=6a580741de5ce979272532f110f6491017a3a1eff6eb59ced2e0b287e13aa73a (in IBD=false)
+2021-12-15T19:55:40.364575Z [msghand] received: block (144 bytes) peer=1
+2021-12-15T19:55:40.364597Z [msghand] received block 6e305fee3782182197a218bb2f0fbf54f400cd34727006b45062db3eadfa2abb peer=1
+2021-12-15T19:55:40.364619Z [msghand] NewPoWValidBlock: block hash=6e305fee3782182197a218bb2f0fbf54f400cd34727006b45062db3eadfa2abb
+2021-12-15T19:55:40.364741Z [msghand]   - Load block from disk: 0.00ms [0.00s]
+2021-12-15T19:55:40.364759Z [msghand]     - Sanity checks: 0.00ms [0.00s (0.00ms/blk)]
+2021-12-15T19:55:40.364772Z [msghand]     - Fork checks: 0.01ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.364785Z [msghand]       - Connect 1 transactions: 0.01ms (0.012ms/tx, 0.000ms/txin) [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.364797Z [msghand]     - Verify 0 txins: 0.02ms (0.000ms/txin) [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.364873Z [msghand]     - Index writing: 0.08ms [0.00s (0.16ms/blk)]
+2021-12-15T19:55:40.364884Z [msghand]     - Callbacks: 0.01ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.364900Z [msghand] BlockChecked: block hash=6e305fee3782182197a218bb2f0fbf54f400cd34727006b45062db3eadfa2abb state=Valid
+2021-12-15T19:55:40.364912Z [msghand]   - Connect total: 0.17ms [0.00s (0.25ms/blk)]
+2021-12-15T19:55:40.364923Z [msghand]   - Flush: 0.01ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.364935Z [msghand]   - Writing chainstate: 0.01ms [0.02s (2.41ms/blk)]
+2021-12-15T19:55:40.365000Z [msghand] Blockpolicy estimates updated by 0 of 0 block txs, since last block 0 of 0 tracked, mempool map size 0, max target 0 from current
+2021-12-15T19:55:40.365019Z [msghand] UpdateTip: new best=6e305fee3782182197a218bb2f0fbf54f400cd34727006b45062db3eadfa2abb height=6 version=0x00000001 log2_work=3.807355 tx=7 date='2021-12-15T19:55:45Z' progress=1.000000 cache=0.0MiB(6txo)
+2021-12-15T19:55:40.365030Z [msghand]   - Connect postprocess: 0.10ms [0.00s (0.14ms/blk)]
+2021-12-15T19:55:40.365039Z [msghand] - Connect block: 0.29ms [0.02s (2.83ms/blk)]
+2021-12-15T19:55:40.365051Z [msghand] Checking mempool with 0 transactions and 0 inputs
+2021-12-15T19:55:40.365065Z [msghand] Enqueuing BlockConnected: block hash=6e305fee3782182197a218bb2f0fbf54f400cd34727006b45062db3eadfa2abb block height=6
+2021-12-15T19:55:40.365082Z [msghand] Enqueuing UpdatedBlockTip: new block hash=6e305fee3782182197a218bb2f0fbf54f400cd34727006b45062db3eadfa2abb fork block hash=7ea0e51f5730137d00a12d0fe094bd975faaabc7de73a62ea851e13d57828d96 (in IBD=false)
+2021-12-15T19:55:40.365101Z [scheduler] BlockConnected: block hash=6e305fee3782182197a218bb2f0fbf54f400cd34727006b45062db3eadfa2abb block height=6
+2021-12-15T19:55:40.365157Z [msghand] SendMessages: sending inv peer=1 hash=7ea0e51f5730137d00a12d0fe094bd975faaabc7de73a62ea851e13d57828d96
+2021-12-15T19:55:40.365173Z [msghand] sending inv (37 bytes) peer=1
+2021-12-15T19:55:40.365219Z [msghand] received: getdata (73 bytes) peer=0
+2021-12-15T19:55:40.365235Z [msghand] received getdata (2 invsz) peer=0
+2021-12-15T19:55:40.365251Z [scheduler] UpdatedBlockTip: new block hash=6e305fee3782182197a218bb2f0fbf54f400cd34727006b45062db3eadfa2abb fork block hash=7ea0e51f5730137d00a12d0fe094bd975faaabc7de73a62ea851e13d57828d96 (in IBD=false)
+2021-12-15T19:55:40.365272Z [msghand] received getdata for: witness-block 095cae48b688c6a0a96ddf7f025b123d5564d7d1d6e61604980fc94833d3ed11 peer=0
+2021-12-15T19:55:40.365337Z [msghand] sending block (144 bytes) peer=0
+2021-12-15T19:55:40.365369Z [msghand] SendMessages: 2 headers, range (7ea0e51f5730137d00a12d0fe094bd975faaabc7de73a62ea851e13d57828d96, 6e305fee3782182197a218bb2f0fbf54f400cd34727006b45062db3eadfa2abb), to peer=0
+2021-12-15T19:55:40.365384Z [msghand] sending headers (163 bytes) peer=0
+2021-12-15T19:55:40.365408Z [msghand] received: block (144 bytes) peer=1
+2021-12-15T19:55:40.365426Z [msghand] received block 4da379a17c63d182e498f363629e09dea4f2d2e01b7da9bd3fc3c6c1231a17da peer=1
+2021-12-15T19:55:40.365450Z [msghand] NewPoWValidBlock: block hash=4da379a17c63d182e498f363629e09dea4f2d2e01b7da9bd3fc3c6c1231a17da
+2021-12-15T19:55:40.365469Z [msghand] PeerManager::NewPoWValidBlock sending header-and-ids 4da379a17c63d182e498f363629e09dea4f2d2e01b7da9bd3fc3c6c1231a17da to peer=0
+2021-12-15T19:55:40.365483Z [msghand] sending cmpctblock (154 bytes) peer=0
+2021-12-15T19:55:40.365605Z [msghand]   - Load block from disk: 0.00ms [0.00s]
+2021-12-15T19:55:40.365622Z [msghand]     - Sanity checks: 0.00ms [0.00s (0.00ms/blk)]
+2021-12-15T19:55:40.365637Z [msghand]     - Fork checks: 0.02ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.365653Z [msghand]       - Connect 1 transactions: 0.01ms (0.013ms/tx, 0.000ms/txin) [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.365667Z [msghand]     - Verify 0 txins: 0.03ms (0.000ms/txin) [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.365758Z [msghand]     - Index writing: 0.09ms [0.00s (0.16ms/blk)]
+2021-12-15T19:55:40.365775Z [msghand]     - Callbacks: 0.02ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.365794Z [msghand] BlockChecked: block hash=4da379a17c63d182e498f363629e09dea4f2d2e01b7da9bd3fc3c6c1231a17da state=Valid
+2021-12-15T19:55:40.365813Z [msghand]   - Connect total: 0.21ms [0.00s (0.25ms/blk)]
+2021-12-15T19:55:40.365830Z [msghand]   - Flush: 0.02ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.365849Z [msghand]   - Writing chainstate: 0.02ms [0.02s (2.15ms/blk)]
+2021-12-15T19:55:40.365914Z [msghand] Blockpolicy estimates updated by 0 of 0 block txs, since last block 0 of 0 tracked, mempool map size 0, max target 0 from current
+2021-12-15T19:55:40.365935Z [msghand] UpdateTip: new best=4da379a17c63d182e498f363629e09dea4f2d2e01b7da9bd3fc3c6c1231a17da height=7 version=0x00000001 log2_work=4.000000 tx=8 date='2021-12-15T19:55:46Z' progress=1.000000 cache=0.0MiB(7txo)
+2021-12-15T19:55:40.365952Z [msghand]   - Connect postprocess: 0.10ms [0.00s (0.13ms/blk)]
+2021-12-15T19:55:40.365962Z [msghand] - Connect block: 0.35ms [0.02s (2.55ms/blk)]
+2021-12-15T19:55:40.365980Z [msghand] Checking mempool with 0 transactions and 0 inputs
+2021-12-15T19:55:40.365995Z [msghand] Enqueuing BlockConnected: block hash=4da379a17c63d182e498f363629e09dea4f2d2e01b7da9bd3fc3c6c1231a17da block height=7
+2021-12-15T19:55:40.366018Z [msghand] Enqueuing UpdatedBlockTip: new block hash=4da379a17c63d182e498f363629e09dea4f2d2e01b7da9bd3fc3c6c1231a17da fork block hash=6e305fee3782182197a218bb2f0fbf54f400cd34727006b45062db3eadfa2abb (in IBD=false)
+2021-12-15T19:55:40.366041Z [scheduler] BlockConnected: block hash=4da379a17c63d182e498f363629e09dea4f2d2e01b7da9bd3fc3c6c1231a17da block height=7
+2021-12-15T19:55:40.366078Z [msghand] SendMessages: sending inv peer=1 hash=6e305fee3782182197a218bb2f0fbf54f400cd34727006b45062db3eadfa2abb
+2021-12-15T19:55:40.366104Z [msghand] sending inv (37 bytes) peer=1
+2021-12-15T19:55:40.366229Z [msghand] sending block (144 bytes) peer=0
+2021-12-15T19:55:40.366268Z [msghand] received: block (144 bytes) peer=1
+2021-12-15T19:55:40.366294Z [msghand] received block 603f61f208f3634047ff3e084dcf6f28b1ad0045d75f14fd1612c852718d257b peer=1
+2021-12-15T19:55:40.366315Z [scheduler] UpdatedBlockTip: new block hash=4da379a17c63d182e498f363629e09dea4f2d2e01b7da9bd3fc3c6c1231a17da fork block hash=6e305fee3782182197a218bb2f0fbf54f400cd34727006b45062db3eadfa2abb (in IBD=false)
+2021-12-15T19:55:40.366353Z [msghand] NewPoWValidBlock: block hash=603f61f208f3634047ff3e084dcf6f28b1ad0045d75f14fd1612c852718d257b
+2021-12-15T19:55:40.366375Z [msghand] PeerManager::NewPoWValidBlock sending header-and-ids 603f61f208f3634047ff3e084dcf6f28b1ad0045d75f14fd1612c852718d257b to peer=0
+2021-12-15T19:55:40.366389Z [msghand] sending cmpctblock (154 bytes) peer=0
+2021-12-15T19:55:40.366520Z [msghand]   - Load block from disk: 0.00ms [0.00s]
+2021-12-15T19:55:40.366538Z [msghand]     - Sanity checks: 0.00ms [0.00s (0.00ms/blk)]
+2021-12-15T19:55:40.366552Z [msghand]     - Fork checks: 0.01ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.366565Z [msghand]       - Connect 1 transactions: 0.01ms (0.012ms/tx, 0.000ms/txin) [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.366582Z [msghand]     - Verify 0 txins: 0.03ms (0.000ms/txin) [0.00s (0.03ms/blk)]
+2021-12-15T19:55:40.366670Z [msghand]     - Index writing: 0.09ms [0.00s (0.15ms/blk)]
+2021-12-15T19:55:40.366687Z [msghand]     - Callbacks: 0.02ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.366702Z [msghand] BlockChecked: block hash=603f61f208f3634047ff3e084dcf6f28b1ad0045d75f14fd1612c852718d257b state=Valid
+2021-12-15T19:55:40.366717Z [msghand]   - Connect total: 0.20ms [0.00s (0.24ms/blk)]
+2021-12-15T19:55:40.366727Z [msghand]   - Flush: 0.01ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.366739Z [msghand]   - Writing chainstate: 0.01ms [0.02s (1.93ms/blk)]
+2021-12-15T19:55:40.366807Z [msghand] Blockpolicy estimates updated by 0 of 0 block txs, since last block 0 of 0 tracked, mempool map size 0, max target 0 from current
+2021-12-15T19:55:40.366829Z [msghand] UpdateTip: new best=603f61f208f3634047ff3e084dcf6f28b1ad0045d75f14fd1612c852718d257b height=8 version=0x00000001 log2_work=4.169925 tx=9 date='2021-12-15T19:55:47Z' progress=1.000000 cache=0.0MiB(8txo)
+2021-12-15T19:55:40.366844Z [msghand]   - Connect postprocess: 0.10ms [0.00s (0.13ms/blk)]
+2021-12-15T19:55:40.366858Z [msghand] - Connect block: 0.33ms [0.02s (2.33ms/blk)]
+2021-12-15T19:55:40.366876Z [msghand] Checking mempool with 0 transactions and 0 inputs
+2021-12-15T19:55:40.366890Z [msghand] Enqueuing BlockConnected: block hash=603f61f208f3634047ff3e084dcf6f28b1ad0045d75f14fd1612c852718d257b block height=8
+2021-12-15T19:55:40.366909Z [msghand] Enqueuing UpdatedBlockTip: new block hash=603f61f208f3634047ff3e084dcf6f28b1ad0045d75f14fd1612c852718d257b fork block hash=4da379a17c63d182e498f363629e09dea4f2d2e01b7da9bd3fc3c6c1231a17da (in IBD=false)
+2021-12-15T19:55:40.366927Z [scheduler] BlockConnected: block hash=603f61f208f3634047ff3e084dcf6f28b1ad0045d75f14fd1612c852718d257b block height=8
+2021-12-15T19:55:40.366951Z [msghand] SendMessages: sending inv peer=1 hash=4da379a17c63d182e498f363629e09dea4f2d2e01b7da9bd3fc3c6c1231a17da
+2021-12-15T19:55:40.366972Z [msghand] sending inv (37 bytes) peer=1
+2021-12-15T19:55:40.367009Z [msghand] received: getdata (73 bytes) peer=0
+2021-12-15T19:55:40.367029Z [msghand] received getdata (2 invsz) peer=0
+2021-12-15T19:55:40.367046Z [scheduler] UpdatedBlockTip: new block hash=603f61f208f3634047ff3e084dcf6f28b1ad0045d75f14fd1612c852718d257b fork block hash=4da379a17c63d182e498f363629e09dea4f2d2e01b7da9bd3fc3c6c1231a17da (in IBD=false)
+2021-12-15T19:55:40.367065Z [msghand] received getdata for: witness-block 7ea0e51f5730137d00a12d0fe094bd975faaabc7de73a62ea851e13d57828d96 peer=0
+2021-12-15T19:55:40.367131Z [msghand] sending block (144 bytes) peer=0
+2021-12-15T19:55:40.367164Z [msghand] received: block (144 bytes) peer=1
+2021-12-15T19:55:40.367181Z [msghand] received block 59078ec1e3cc372cdeb3cc0ffd4f7e2838347ca8d3da49f06ae931cae398b6c6 peer=1
+2021-12-15T19:55:40.367237Z [msghand] NewPoWValidBlock: block hash=59078ec1e3cc372cdeb3cc0ffd4f7e2838347ca8d3da49f06ae931cae398b6c6
+2021-12-15T19:55:40.367259Z [msghand] PeerManager::NewPoWValidBlock sending header-and-ids 59078ec1e3cc372cdeb3cc0ffd4f7e2838347ca8d3da49f06ae931cae398b6c6 to peer=0
+2021-12-15T19:55:40.367270Z [msghand] sending cmpctblock (154 bytes) peer=0
+2021-12-15T19:55:40.367389Z [msghand]   - Load block from disk: 0.00ms [0.00s]
+2021-12-15T19:55:40.367407Z [msghand]     - Sanity checks: 0.00ms [0.00s (0.00ms/blk)]
+2021-12-15T19:55:40.367424Z [msghand]     - Fork checks: 0.02ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.367442Z [msghand]       - Connect 1 transactions: 0.02ms (0.017ms/tx, 0.000ms/txin) [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.367456Z [msghand]     - Verify 0 txins: 0.03ms (0.000ms/txin) [0.00s (0.03ms/blk)]
+2021-12-15T19:55:40.367549Z [msghand]     - Index writing: 0.09ms [0.00s (0.14ms/blk)]
+2021-12-15T19:55:40.367562Z [msghand]     - Callbacks: 0.01ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.367576Z [msghand] BlockChecked: block hash=59078ec1e3cc372cdeb3cc0ffd4f7e2838347ca8d3da49f06ae931cae398b6c6 state=Valid
+2021-12-15T19:55:40.367591Z [msghand]   - Connect total: 0.20ms [0.00s (0.24ms/blk)]
+2021-12-15T19:55:40.367604Z [msghand]   - Flush: 0.01ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.367618Z [msghand]   - Writing chainstate: 0.01ms [0.02s (1.76ms/blk)]
+2021-12-15T19:55:40.367677Z [msghand] Blockpolicy estimates updated by 0 of 0 block txs, since last block 0 of 0 tracked, mempool map size 0, max target 0 from current
+2021-12-15T19:55:40.367698Z [msghand] UpdateTip: new best=59078ec1e3cc372cdeb3cc0ffd4f7e2838347ca8d3da49f06ae931cae398b6c6 height=9 version=0x00000001 log2_work=4.321928 tx=10 date='2021-12-15T19:55:48Z' progress=1.000000 cache=0.0MiB(9txo)
+2021-12-15T19:55:40.367711Z [msghand]   - Connect postprocess: 0.09ms [0.00s (0.13ms/blk)]
+2021-12-15T19:55:40.367723Z [msghand] - Connect block: 0.32ms [0.02s (2.15ms/blk)]
+2021-12-15T19:55:40.367737Z [msghand] Checking mempool with 0 transactions and 0 inputs
+2021-12-15T19:55:40.367753Z [msghand] Enqueuing BlockConnected: block hash=59078ec1e3cc372cdeb3cc0ffd4f7e2838347ca8d3da49f06ae931cae398b6c6 block height=9
+2021-12-15T19:55:40.367773Z [msghand] Enqueuing UpdatedBlockTip: new block hash=59078ec1e3cc372cdeb3cc0ffd4f7e2838347ca8d3da49f06ae931cae398b6c6 fork block hash=603f61f208f3634047ff3e084dcf6f28b1ad0045d75f14fd1612c852718d257b (in IBD=false)
+2021-12-15T19:55:40.367792Z [scheduler] BlockConnected: block hash=59078ec1e3cc372cdeb3cc0ffd4f7e2838347ca8d3da49f06ae931cae398b6c6 block height=9
+2021-12-15T19:55:40.367813Z [msghand] SendMessages: sending inv peer=1 hash=603f61f208f3634047ff3e084dcf6f28b1ad0045d75f14fd1612c852718d257b
+2021-12-15T19:55:40.367829Z [msghand] sending inv (37 bytes) peer=1
+2021-12-15T19:55:40.367915Z [msghand] sending block (144 bytes) peer=0
+2021-12-15T19:55:40.367945Z [msghand] received: getdata (37 bytes) peer=0
+2021-12-15T19:55:40.367963Z [msghand] received getdata (1 invsz) peer=0
+2021-12-15T19:55:40.367979Z [scheduler] UpdatedBlockTip: new block hash=59078ec1e3cc372cdeb3cc0ffd4f7e2838347ca8d3da49f06ae931cae398b6c6 fork block hash=603f61f208f3634047ff3e084dcf6f28b1ad0045d75f14fd1612c852718d257b (in IBD=false)
+2021-12-15T19:55:40.368000Z [msghand] received getdata for: witness-block 4da379a17c63d182e498f363629e09dea4f2d2e01b7da9bd3fc3c6c1231a17da peer=0
+2021-12-15T19:55:40.368051Z [msghand] sending block (144 bytes) peer=0
+2021-12-15T19:55:40.368081Z [msghand] received: block (144 bytes) peer=1
+2021-12-15T19:55:40.368097Z [msghand] received block 39c975e8dbab210d8f1ecc58a2d94469e3a03d4f01a15910fc1780d306f425ea peer=1
+2021-12-15T19:55:40.368122Z [msghand] NewPoWValidBlock: block hash=39c975e8dbab210d8f1ecc58a2d94469e3a03d4f01a15910fc1780d306f425ea
+2021-12-15T19:55:40.368141Z [msghand] PeerManager::NewPoWValidBlock sending header-and-ids 39c975e8dbab210d8f1ecc58a2d94469e3a03d4f01a15910fc1780d306f425ea to peer=0
+2021-12-15T19:55:40.368152Z [msghand] sending cmpctblock (154 bytes) peer=0
+2021-12-15T19:55:40.368302Z [msghand]   - Load block from disk: 0.00ms [0.00s]
+2021-12-15T19:55:40.368320Z [msghand]     - Sanity checks: 0.00ms [0.00s (0.00ms/blk)]
+2021-12-15T19:55:40.368337Z [msghand]     - Fork checks: 0.02ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.368356Z [msghand]       - Connect 1 transactions: 0.02ms (0.016ms/tx, 0.000ms/txin) [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.368374Z [msghand]     - Verify 0 txins: 0.04ms (0.000ms/txin) [0.00s (0.03ms/blk)]
+2021-12-15T19:55:40.368459Z [msghand]     - Index writing: 0.09ms [0.00s (0.14ms/blk)]
+2021-12-15T19:55:40.368472Z [msghand]     - Callbacks: 0.01ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.368489Z [msghand] BlockChecked: block hash=39c975e8dbab210d8f1ecc58a2d94469e3a03d4f01a15910fc1780d306f425ea state=Valid
+2021-12-15T19:55:40.368506Z [msghand]   - Connect total: 0.21ms [0.00s (0.24ms/blk)]
+2021-12-15T19:55:40.368519Z [msghand]   - Flush: 0.01ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.368533Z [msghand]   - Writing chainstate: 0.01ms [0.02s (1.61ms/blk)]
+2021-12-15T19:55:40.368589Z [msghand] Blockpolicy estimates updated by 0 of 0 block txs, since last block 0 of 0 tracked, mempool map size 0, max target 0 from current
+2021-12-15T19:55:40.368610Z [msghand] UpdateTip: new best=39c975e8dbab210d8f1ecc58a2d94469e3a03d4f01a15910fc1780d306f425ea height=10 version=0x00000001 log2_work=4.459432 tx=11 date='2021-12-15T19:55:49Z' progress=1.000000 cache=0.0MiB(10txo)
+2021-12-15T19:55:40.368626Z [msghand]   - Connect postprocess: 0.09ms [0.00s (0.12ms/blk)]
+2021-12-15T19:55:40.368642Z [msghand] - Connect block: 0.33ms [0.02s (2.00ms/blk)]
+2021-12-15T19:55:40.368655Z [msghand] Checking mempool with 0 transactions and 0 inputs
+2021-12-15T19:55:40.368671Z [msghand] Enqueuing BlockConnected: block hash=39c975e8dbab210d8f1ecc58a2d94469e3a03d4f01a15910fc1780d306f425ea block height=10
+2021-12-15T19:55:40.368691Z [msghand] Enqueuing UpdatedBlockTip: new block hash=39c975e8dbab210d8f1ecc58a2d94469e3a03d4f01a15910fc1780d306f425ea fork block hash=59078ec1e3cc372cdeb3cc0ffd4f7e2838347ca8d3da49f06ae931cae398b6c6 (in IBD=false)
+2021-12-15T19:55:40.368711Z [scheduler] BlockConnected: block hash=39c975e8dbab210d8f1ecc58a2d94469e3a03d4f01a15910fc1780d306f425ea block height=10
+2021-12-15T19:55:40.368733Z [msghand] SendMessages: sending inv peer=1 hash=59078ec1e3cc372cdeb3cc0ffd4f7e2838347ca8d3da49f06ae931cae398b6c6
+2021-12-15T19:55:40.368748Z [msghand] sending inv (37 bytes) peer=1
+2021-12-15T19:55:40.368780Z [msghand] received: getdata (37 bytes) peer=0
+2021-12-15T19:55:40.368798Z [msghand] received getdata (1 invsz) peer=0
+2021-12-15T19:55:40.368812Z [msghand] received getdata for: witness-block 603f61f208f3634047ff3e084dcf6f28b1ad0045d75f14fd1612c852718d257b peer=0
+2021-12-15T19:55:40.368831Z [scheduler] UpdatedBlockTip: new block hash=39c975e8dbab210d8f1ecc58a2d94469e3a03d4f01a15910fc1780d306f425ea fork block hash=59078ec1e3cc372cdeb3cc0ffd4f7e2838347ca8d3da49f06ae931cae398b6c6 (in IBD=false)
+2021-12-15T19:55:40.368879Z [msghand] sending block (144 bytes) peer=0
+2021-12-15T19:55:40.368911Z [msghand] received: block (144 bytes) peer=1
+2021-12-15T19:55:40.368926Z [msghand] received block 31f5950ab2d84f17252a6cfe830e5b2998bd6b83f84af60bc5c33a120c31d678 peer=1
+2021-12-15T19:55:40.368954Z [msghand] NewPoWValidBlock: block hash=31f5950ab2d84f17252a6cfe830e5b2998bd6b83f84af60bc5c33a120c31d678
+2021-12-15T19:55:40.368972Z [msghand] PeerManager::NewPoWValidBlock sending header-and-ids 31f5950ab2d84f17252a6cfe830e5b2998bd6b83f84af60bc5c33a120c31d678 to peer=0
+2021-12-15T19:55:40.368988Z [msghand] sending cmpctblock (154 bytes) peer=0
+2021-12-15T19:55:40.369101Z [msghand]   - Load block from disk: 0.00ms [0.00s]
+2021-12-15T19:55:40.369123Z [msghand]     - Sanity checks: 0.00ms [0.00s (0.00ms/blk)]
+2021-12-15T19:55:40.369139Z [msghand]     - Fork checks: 0.02ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.369156Z [msghand]       - Connect 1 transactions: 0.01ms (0.015ms/tx, 0.000ms/txin) [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.369173Z [msghand]     - Verify 0 txins: 0.03ms (0.000ms/txin) [0.00s (0.03ms/blk)]
+2021-12-15T19:55:40.369294Z [msghand]     - Index writing: 0.12ms [0.00s (0.14ms/blk)]
+2021-12-15T19:55:40.369311Z [msghand]     - Callbacks: 0.02ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.369327Z [msghand] BlockChecked: block hash=31f5950ab2d84f17252a6cfe830e5b2998bd6b83f84af60bc5c33a120c31d678 state=Valid
+2021-12-15T19:55:40.369339Z [msghand]   - Connect total: 0.24ms [0.00s (0.24ms/blk)]
+2021-12-15T19:55:40.369352Z [msghand]   - Flush: 0.01ms [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.369366Z [msghand]   - Writing chainstate: 0.01ms [0.02s (1.49ms/blk)]
+2021-12-15T19:55:40.369420Z [msghand] Blockpolicy estimates updated by 0 of 0 block txs, since last block 0 of 0 tracked, mempool map size 0, max target 0 from current
+2021-12-15T19:55:40.369446Z [msghand] UpdateTip: new best=31f5950ab2d84f17252a6cfe830e5b2998bd6b83f84af60bc5c33a120c31d678 height=11 version=0x00000001 log2_work=4.584963 tx=12 date='2021-12-15T19:55:50Z' progress=1.000000 cache=0.0MiB(11txo)
+2021-12-15T19:55:40.369457Z [msghand]   - Connect postprocess: 0.09ms [0.00s (0.12ms/blk)]
+2021-12-15T19:55:40.369467Z [msghand] - Connect block: 0.36ms [0.02s (1.87ms/blk)]
+2021-12-15T19:55:40.369478Z [msghand] Checking mempool with 0 transactions and 0 inputs
+2021-12-15T19:55:40.369492Z [msghand] Enqueuing BlockConnected: block hash=31f5950ab2d84f17252a6cfe830e5b2998bd6b83f84af60bc5c33a120c31d678 block height=11
+2021-12-15T19:55:40.369512Z [msghand] Enqueuing UpdatedBlockTip: new block hash=31f5950ab2d84f17252a6cfe830e5b2998bd6b83f84af60bc5c33a120c31d678 fork block hash=39c975e8dbab210d8f1ecc58a2d94469e3a03d4f01a15910fc1780d306f425ea (in IBD=false)
+2021-12-15T19:55:40.369534Z [scheduler] BlockConnected: block hash=31f5950ab2d84f17252a6cfe830e5b2998bd6b83f84af60bc5c33a120c31d678 block height=11
+2021-12-15T19:55:40.369567Z [msghand] SendMessages: sending inv peer=1 hash=39c975e8dbab210d8f1ecc58a2d94469e3a03d4f01a15910fc1780d306f425ea
+2021-12-15T19:55:40.369585Z [msghand] sending inv (37 bytes) peer=1
+2021-12-15T19:55:40.369623Z [msghand] received: getdata (37 bytes) peer=0
+2021-12-15T19:55:40.369641Z [msghand] received getdata (1 invsz) peer=0
+2021-12-15T19:55:40.369656Z [scheduler] UpdatedBlockTip: new block hash=31f5950ab2d84f17252a6cfe830e5b2998bd6b83f84af60bc5c33a120c31d678 fork block hash=39c975e8dbab210d8f1ecc58a2d94469e3a03d4f01a15910fc1780d306f425ea (in IBD=false)
+2021-12-15T19:55:40.369679Z [msghand] received getdata for: witness-block 59078ec1e3cc372cdeb3cc0ffd4f7e2838347ca8d3da49f06ae931cae398b6c6 peer=0
+2021-12-15T19:55:40.369749Z [msghand] sending block (144 bytes) peer=0
+2021-12-15T19:55:40.369790Z [msghand] received: block (144 bytes) peer=1
+2021-12-15T19:55:40.369808Z [msghand] received block 12cc052bce94c44f0492aa5a18715da42547776207f6115b412306b6686dda32 peer=1
+2021-12-15T19:55:40.369831Z [msghand] NewPoWValidBlock: block hash=12cc052bce94c44f0492aa5a18715da42547776207f6115b412306b6686dda32
+2021-12-15T19:55:40.369851Z [msghand] PeerManager::NewPoWValidBlock sending header-and-ids 12cc052bce94c44f0492aa5a18715da42547776207f6115b412306b6686dda32 to peer=0
+2021-12-15T19:55:40.369865Z [msghand] sending cmpctblock (154 bytes) peer=0
+2021-12-15T19:55:40.369983Z [msghand]   - Load block from disk: 0.00ms [0.00s]
+2021-12-15T19:55:40.370001Z [msghand]     - Sanity checks: 0.00ms [0.00s (0.00ms/blk)]
+2021-12-15T19:55:40.370016Z [msghand]     - Fork checks: 0.02ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.370031Z [msghand]       - Connect 1 transactions: 0.01ms (0.014ms/tx, 0.000ms/txin) [0.00s (0.01ms/blk)]
+2021-12-15T19:55:40.370048Z [msghand]     - Verify 0 txins: 0.03ms (0.000ms/txin) [0.00s (0.03ms/blk)]
+2021-12-15T19:55:40.370128Z [msghand]     - Index writing: 0.08ms [0.00s (0.13ms/blk)]
+2021-12-15T19:55:40.370142Z [msghand]     - Callbacks: 0.01ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.370154Z [msghand] BlockChecked: block hash=12cc052bce94c44f0492aa5a18715da42547776207f6115b412306b6686dda32 state=Valid
+2021-12-15T19:55:40.370166Z [msghand]   - Connect total: 0.18ms [0.00s (0.23ms/blk)]
+2021-12-15T19:55:40.370211Z [msghand]   - Flush: 0.04ms [0.00s (0.02ms/blk)]
+2021-12-15T19:55:40.370225Z [msghand]   - Writing chainstate: 0.01ms [0.02s (1.39ms/blk)]
+2021-12-15T19:55:40.370278Z [msghand] Blockpolicy estimates updated by 0 of 0 block txs, since last block 0 of 0 tracked, mempool map size 0, max target 0 from current
+2021-12-15T19:55:40.370299Z [msghand] UpdateTip: new best=12cc052bce94c44f0492aa5a18715da42547776207f6115b412306b6686dda32 height=12 version=0x00000001 log2_work=4.700440 tx=13 date='2021-12-15T19:55:51Z' progress=1.000000 cache=0.0MiB(12txo)
+2021-12-15T19:55:40.370323Z [msghand]   - Connect postprocess: 0.10ms [0.00s (0.12ms/blk)]
+2021-12-15T19:55:40.370336Z [msghand] - Connect block: 0.34ms [0.02s (1.76ms/blk)]
+2021-12-15T19:55:40.370349Z [msghand] Checking mempool with 0 transactions and 0 inputs
+2021-12-15T19:55:40.370363Z [msghand] Enqueuing BlockConnected: block hash=12cc052bce94c44f0492aa5a18715da42547776207f6115b412306b6686dda32 block height=12
+2021-12-15T19:55:40.370381Z [msghand] Enqueuing UpdatedBlockTip: new block hash=12cc052bce94c44f0492aa5a18715da42547776207f6115b412306b6686dda32 fork block hash=31f5950ab2d84f17252a6cfe830e5b2998bd6b83f84af60bc5c33a120c31d678 (in IBD=false)
+2021-12-15T19:55:40.370400Z [scheduler] BlockConnected: block hash=12cc052bce94c44f0492aa5a18715da42547776207f6115b412306b6686dda32 block height=12
+2021-12-15T19:55:40.370432Z [msghand] SendMessages: sending inv peer=1 hash=31f5950ab2d84f17252a6cfe830e5b2998bd6b83f84af60bc5c33a120c31d678
+2021-12-15T19:55:40.370461Z [msghand] sending inv (37 bytes) peer=1
+2021-12-15T19:55:40.370505Z [msghand] received: getdata (37 bytes) peer=0
+2021-12-15T19:55:40.370523Z [msghand] received getdata (1 invsz) peer=0
+2021-12-15T19:55:40.370537Z [scheduler] UpdatedBlockTip: new block hash=12cc052bce94c44f0492aa5a18715da42547776207f6115b412306b6686dda32 fork block hash=31f5950ab2d84f17252a6cfe830e5b2998bd6b83f84af60bc5c33a120c31d678 (in IBD=false)
+2021-12-15T19:55:40.370560Z [msghand] received getdata for: witness-block 39c975e8dbab210d8f1ecc58a2d94469e3a03d4f01a15910fc1780d306f425ea peer=0
+2021-12-15T19:55:40.370637Z [msghand] sending block (144 bytes) peer=0
+2021-12-15T19:55:40.370673Z [msghand] SendMessages: sending inv peer=1 hash=12cc052bce94c44f0492aa5a18715da42547776207f6115b412306b6686dda32
+2021-12-15T19:55:40.370687Z [msghand] sending inv (37 bytes) peer=1
+2021-12-15T19:55:40.370709Z [msghand] received: getdata (37 bytes) peer=0
+2021-12-15T19:55:40.370726Z [msghand] received getdata (1 invsz) peer=0
+2021-12-15T19:55:40.370744Z [msghand] received getdata for: witness-block 31f5950ab2d84f17252a6cfe830e5b2998bd6b83f84af60bc5c33a120c31d678 peer=0
+2021-12-15T19:55:40.370799Z [msghand] sending block (144 bytes) peer=0
+2021-12-15T19:55:40.370831Z [msghand] received: getdata (37 bytes) peer=0
+2021-12-15T19:55:40.370844Z [msghand] received getdata (1 invsz) peer=0
+2021-12-15T19:55:40.370855Z [msghand] received getdata for: witness-block 12cc052bce94c44f0492aa5a18715da42547776207f6115b412306b6686dda32 peer=0
+2021-12-15T19:55:40.370868Z [msghand] sending block (144 bytes) peer=0
+2021-12-15T19:55:40.427551Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:40.427615Z [httpworker.2] ThreadRPCServer method=getbestblockhash user=__cookie__
+2021-12-15T19:55:40.428925Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:40.428972Z [httpworker.3] ThreadRPCServer method=getpeerinfo user=__cookie__
+2021-12-15T19:55:41.431738Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:41.431846Z [httpworker.0] ThreadRPCServer method=getbestblockhash user=__cookie__
+2021-12-15T19:55:41.433861Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:41.433937Z [httpworker.1] ThreadRPCServer method=getrawmempool user=__cookie__
+2021-12-15T19:55:41.435616Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:41.435681Z [httpworker.2] ThreadRPCServer method=syncwithvalidationinterfacequeue user=__cookie__
+2021-12-15T19:55:41.437651Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:41.437759Z [httpworker.3] ThreadRPCServer method=getpeerinfo user=__cookie__
+2021-12-15T19:55:41.437797Z [net] socket closed for peer=1
+2021-12-15T19:55:41.437816Z [net] disconnecting peer=1
+2021-12-15T19:55:41.437852Z [net] Cleared nodestate for peer=1
+2021-12-15T19:55:41.654113Z [http] Received a POST request for / from 127.0.0.1:54380
+2021-12-15T19:55:41.654199Z [httpworker.0] ThreadRPCServer method=stop user=__cookie__
+2021-12-15T19:55:41.702848Z [init] Interrupting HTTP server
+2021-12-15T19:55:41.702951Z [init] Interrupting HTTP RPC server
+2021-12-15T19:55:41.702969Z [init] Interrupting RPC
+2021-12-15T19:55:41.703006Z [init] Shutdown: In progress...
+2021-12-15T19:55:41.703049Z [addcon] addcon thread exit
+2021-12-15T19:55:41.703098Z [shutoff] Stopping HTTP RPC server
+2021-12-15T19:55:41.703128Z [shutoff] Unregistering HTTP handler for / (exactmatch 1)
+2021-12-15T19:55:41.703149Z [shutoff] Unregistering HTTP handler for /wallet/ (exactmatch 0)
+2021-12-15T19:55:41.703169Z [opencon] opencon thread exit
+2021-12-15T19:55:41.703215Z [shutoff] Stopping RPC
+2021-12-15T19:55:41.703242Z [net] net thread exit
+2021-12-15T19:55:41.703449Z [shutoff] RPC stopped.
+2021-12-15T19:55:41.703467Z [shutoff] Stopping HTTP server
+2021-12-15T19:55:41.703478Z [shutoff] Waiting for HTTP worker threads to exit
+2021-12-15T19:55:41.703572Z [shutoff] Waiting for HTTP event thread to exit
+2021-12-15T19:55:41.703595Z [http] Exited http event loop
+2021-12-15T19:55:41.703700Z [shutoff] Stopped HTTP server
+2021-12-15T19:55:41.703752Z [shutoff] BerkeleyEnvironment::Flush: [/var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/regtest/wallets] Flush(false)
+2021-12-15T19:55:41.703767Z [shutoff] BerkeleyEnvironment::Flush: Flushing wallet.dat (refcount = 0)...
+2021-12-15T19:55:41.704655Z [msghand] msghand thread exit
+2021-12-15T19:55:41.744028Z [shutoff] BerkeleyEnvironment::Flush: wallet.dat checkpoint
+2021-12-15T19:55:41.781963Z [shutoff] BerkeleyEnvironment::Flush: wallet.dat detach
+2021-12-15T19:55:41.819669Z [shutoff] BerkeleyEnvironment::Flush: wallet.dat closed
+2021-12-15T19:55:41.820063Z [shutoff] BerkeleyEnvironment::Flush: Flush(false) took             117ms
+2021-12-15T19:55:41.916113Z [shutoff] Flushed 0 addresses to peers.dat  96ms
+2021-12-15T19:55:41.916153Z [shutoff] DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat started
+2021-12-15T19:55:41.955887Z [shutoff] DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat completed (0.04s)
+2021-12-15T19:55:41.955911Z [shutoff] disconnecting peer=0
+2021-12-15T19:55:41.955970Z [shutoff] Cleared nodestate for peer=0
+2021-12-15T19:55:41.956018Z [scheduler] scheduler thread exit
+2021-12-15T19:55:41.975921Z [shutoff] Writing 0 unbroadcast transactions to disk.
+2021-12-15T19:55:42.011888Z [shutoff] Dumped mempool: 4e-06s to copy, 0.036085s to dump
+2021-12-15T19:55:42.011917Z [shutoff] Recorded 0 unconfirmed txs from mempool in 0s
+2021-12-15T19:55:42.052858Z [shutoff] FlushStateToDisk: write block and undo data to disk started
+2021-12-15T19:55:42.107152Z [shutoff] FlushStateToDisk: write block and undo data to disk completed (54.26ms)
+2021-12-15T19:55:42.107495Z [shutoff] FlushStateToDisk: write block index to disk started
+2021-12-15T19:55:42.143169Z [shutoff] FlushStateToDisk: write block index to disk completed (35.65ms)
+2021-12-15T19:55:42.143200Z [shutoff] FlushStateToDisk: write coins cache to disk (12 coins, 1kB) started
+2021-12-15T19:55:42.143264Z [shutoff] Writing final batch of 0.00 MiB
+2021-12-15T19:55:42.143366Z [shutoff] Committed 12 changed transaction outputs (out of 12) to coin database...
+2021-12-15T19:55:42.143385Z [shutoff] FlushStateToDisk: write coins cache to disk (12 coins, 1kB) completed (0.00s)
+2021-12-15T19:55:42.143399Z [shutoff] Enqueuing ChainStateFlushed: block hash=12cc052bce94c44f0492aa5a18715da42547776207f6115b412306b6686dda32
+2021-12-15T19:55:42.143419Z [shutoff] ChainStateFlushed: block hash=12cc052bce94c44f0492aa5a18715da42547776207f6115b412306b6686dda32
+2021-12-15T19:55:42.268201Z [shutoff] FlushStateToDisk: write block and undo data to disk started
+2021-12-15T19:55:42.322176Z [shutoff] FlushStateToDisk: write block and undo data to disk completed (53.78ms)
+2021-12-15T19:55:42.322393Z [shutoff] FlushStateToDisk: write block index to disk started
+2021-12-15T19:55:42.357368Z [shutoff] FlushStateToDisk: write block index to disk completed (34.95ms)
+2021-12-15T19:55:42.357559Z [shutoff] FlushStateToDisk: write coins cache to disk (0 coins, 0kB) started
+2021-12-15T19:55:42.357609Z [shutoff] Writing final batch of 0.00 MiB
+2021-12-15T19:55:42.357641Z [shutoff] Committed 0 changed transaction outputs (out of 0) to coin database...
+2021-12-15T19:55:42.357655Z [shutoff] FlushStateToDisk: write coins cache to disk (0 coins, 0kB) completed (0.00s)
+2021-12-15T19:55:42.357671Z [shutoff] Enqueuing ChainStateFlushed: block hash=12cc052bce94c44f0492aa5a18715da42547776207f6115b412306b6686dda32
+2021-12-15T19:55:42.375505Z [shutoff] BerkeleyEnvironment::Flush: [/var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/regtest/wallets] Flush(true)
+2021-12-15T19:55:42.393357Z [shutoff] BerkeleyEnvironment::Flush: Flushing wallet.dat (refcount = 0)...
+2021-12-15T19:55:42.446433Z [shutoff] BerkeleyEnvironment::Flush: wallet.dat checkpoint
+2021-12-15T19:55:42.498396Z [shutoff] BerkeleyEnvironment::Flush: wallet.dat detach
+2021-12-15T19:55:42.554554Z [shutoff] BerkeleyEnvironment::Flush: wallet.dat closed
+2021-12-15T19:55:42.554665Z [shutoff] BerkeleyEnvironment::Flush: Flush(true) took             179ms
+2021-12-15T19:55:42.593215Z [shutoff] [default wallet] Releasing wallet
+2021-12-15T19:55:42.593247Z [shutoff] BerkeleyEnvironment::Flush: [/var/folders/5p/6db7pqzd13q0l7gmm6c04v6c0000gn/T/bitcoin_func_test_c4p4yhyy/node0/regtest/wallets] Flush(false) database not started
+2021-12-15T19:55:42.613091Z [shutoff] Shutdown: done
