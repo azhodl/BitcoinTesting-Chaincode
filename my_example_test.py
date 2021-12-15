@@ -167,7 +167,7 @@ class ExampleTest(BitcoinTestFramework):
 
         height = self.nodes[0].getblockcount()
         i = 1 #TESTING
-        for _ in range(11):
+        for _ in range(11): #THIS IS MY PRIMARY MODIFICATION TO INCREASE NUMBER OF BLOCKS MINED
             # Use the blocktools functionality to manually build a block.
             # Calling the generate() rpc is easier, but this allows us to exactly
             # control the blocks and transactions.
@@ -181,9 +181,9 @@ class ExampleTest(BitcoinTestFramework):
             self.block_time += 1
             height += 1
             print(i,'blocks created:,\n',block) #TESTING COUNTER
-            i+=1
+            i+=1 #TESTING COUNTER
         self.log.info("Wait for node1 to reach current tip (height 12) using RPC")
-        self.nodes[1].waitforblockheight(12)
+        self.nodes[1].waitforblockheight(12) #MODIFICATION TO WAIT FOR THE ADDITIONAL BLOCK
 
         self.log.info("Connect node2 and node1")
         self.connect_nodes(1, 2)
